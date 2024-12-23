@@ -28,19 +28,3 @@ Technologies Used:
 Framework: Spring Boot
 Programming Language: Java
 Development Tools: VS Code, Maven
-
-Features:
-
-RESTful API development using Spring Boot
-Basic implementation of request mappings
-Dynamic response generation using query parameters
-
-Learning Outcomes:
-This project helps beginners understand the fundamentals of RESTful API design, including handling HTTP requests, returning JSON-like responses, and working with query parameters. It also demonstrates the ease of building scalable and maintainable microservices using the Spring Boot framework.
-
-Potential Enhancements:
-
-Add more endpoints for CRUD operations.
-Implement JSON responses instead of plain text.
-Introduce logging and exception handling.
-Integrate database support to demonstrate data persistence.
