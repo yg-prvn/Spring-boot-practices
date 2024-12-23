@@ -1,7 +1,7 @@
 # Spring-boot-project-practices
 Spring Boot Practices --traininng
 
-Project Title: Spring Boot REST API Practice
+Project Title: Spring Boot Basics Practice
 
 Description:
 This project is a beginner-friendly Spring Boot application designed to demonstrate the development of RESTful APIs. The application showcases the use of various annotations such as @SpringBootApplication, @RestController, @RequestMapping, and @GetMapping to build a lightweight web server capable of handling HTTP requests.
