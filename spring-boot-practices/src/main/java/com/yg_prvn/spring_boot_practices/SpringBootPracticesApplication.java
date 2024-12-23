@@ -3,6 +3,7 @@ package com.yg_prvn.spring_boot_practices;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,6 +14,16 @@ public class SpringBootPracticesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootPracticesApplication.class, args);
 	}
+
+	@RequestMapping("/hello") 
+    public String hello(){
+        return "Hello, World!";
+    }
+
+    @RequestMapping("/hello1")
+    public String hello1() {
+        return "Hello, Praveen!";
+    }
 
 	@GetMapping("/hello2")
     public String helloEveryone(@RequestParam(value = "name", defaultValue = "") String name) {
